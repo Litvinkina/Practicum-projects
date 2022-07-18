@@ -5,7 +5,7 @@
 # Используемые инструменты и методы
 - изучение общей информации о данных: head(), info(), describe()
 - обработка пропущенных значений: isna()
-- замена типов данных: astype(), to_datetime()
-- анализ данных: groupby(), sort_values(), isin(), corr()
-- построение графиков: plot(), plot(kind='hist'), plot(kind='scatter'), plot(kind='bar'), boxplot(), barh()
+- замена типов данных: astype()
+- анализ данных: groupby(), sort_values(), pivot_table(), corr()
+- построение графиков: plot(),  plot(kind='pie'), plot(kind='bar'), boxplot()
 - проверка гипотез: st.ttest_ind()
